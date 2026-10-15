@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class StageOut : MonoBehaviour
 {
-    private int Life = 3;
+    public int Life = 3;
     public TextMeshProUGUI LifeText;
     //  このコードをアタッチしたオブジェクトに他のオブジェクトがすり抜けた時
     private void OnTriggerEnter(Collider other)
